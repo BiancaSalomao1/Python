@@ -29,6 +29,7 @@ pydantic==2.13.3
 pydantic_core==2.46.3
 Pygments==2.20.0
 pytesseract==0.3.13
+python-multipart==0.0.26
 requests==2.33.1
 rich==15.0.0
 setuptools==82.0.1

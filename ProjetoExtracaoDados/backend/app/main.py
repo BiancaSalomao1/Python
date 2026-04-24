@@ -13,6 +13,8 @@ from app.config import APP_NAME, VERSION
 from app.database.db import engine, SessionLocal, Base
 from app.database import crud
 
+from app.routes import upload
+
 app = FastAPI(
     title=APP_NAME,
     version=VERSION
@@ -41,3 +43,5 @@ def create_user(username: str, password: str, db: Session = Depends(get_db)):
 @app.get("/users")
 def list_users(db: Session = Depends(get_db)):
     return crud.get_users(db)
+
+app.include_router(upload.router)
