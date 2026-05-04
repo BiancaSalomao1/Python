@@ -1,3 +1,4 @@
+Código : https://github.com/BiancaSalomao1/ai-python-fatec.git
 #### Projeto Requisito Para Conclusão Da Disciplina De Inteligência Artificial FATEC/RP
 A ser Desenvolvido em Grupo
 
